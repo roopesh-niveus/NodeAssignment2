@@ -12,8 +12,7 @@ const port = 8079;
 
 //defualt get api without param and query
 app.get("/", (req, res) => {
-  const url = path.join(__dirname + "/index1.html");
-  res.sendFile(url);
+  res.send("No path param or query param , try with giving patha and query in url ")
 });
 
 //get api with params and query
