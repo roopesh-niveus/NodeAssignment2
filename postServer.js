@@ -1,7 +1,6 @@
 /*
 postServer.js is file in which,
 Create a POST api which acccepts a JSON data. Return an array of data.
-this takes the form inputs as json and then converts it to array and returns.
 */
 
 const express = require("express");
@@ -10,8 +9,7 @@ const app = express();
 app.use(express.json());
 
 let data = [];
-// let id = 0;
-//default get api from which post api can be triggered
+//default get api
 app.get("/", (req, res) => {
   res.send("api working");
 });
