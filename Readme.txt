@@ -22,4 +22,4 @@ Sample:
 
 ## Post API (postServer.js) - requirements 
 
-Fill the form that appears on running postServer.js and submit
+Use Thunder Client extension to pass json data.
